@@ -306,6 +306,10 @@
     border-radius: 50px;
     border: 1px solid var(--white);
     background-color: transparent;
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .form-desc {
