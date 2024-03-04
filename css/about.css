@@ -2,12 +2,11 @@
 
 .nav {
     display: flex;
-    flex-direction: column;
-    row-gap: 65px;
-    
+    flex-direction: column;    
 }
 
 .about-page-title {
+    margin-top: 65px;   
     font-size: 35px !important;
 }
 
