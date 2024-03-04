@@ -1,0 +1,16 @@
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+    
+}
+
+.about-page-title {
+    font-size: 35px !important;
+}
+
+.about-mark-text {
+    color: #0040DD !important;
+}

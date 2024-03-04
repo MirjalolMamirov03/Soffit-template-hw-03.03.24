@@ -7,3 +7,7 @@ body {
 .services {
     background: unset !important;
 }
+
+.services-page-title {
+    font-size: 35px !important;
+}
