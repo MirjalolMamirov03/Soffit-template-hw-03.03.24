@@ -171,7 +171,7 @@
 /* SERVICES-SECTION */
 
 .site-main {
-    background: linear-gradient(50deg, rgba(0, 0, 0, 0.30) 35%, rgba(114, 28, 161, 0.3) 100%);
+    background: linear-gradient(80deg, rgba(0, 0, 0, 0.30) 35%, rgba(114, 28, 161, 0.3) 100%);
 }
 
 .services {
@@ -184,14 +184,12 @@
 }
 
 .services-cards {
-    width: 100%;
+    width: 1450px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: auto;
     overflow-x: auto;
-    scrollbar-width: 1260px;
     scrollbar-color: var(--white);
-    scroll-behavior: smooth;
     padding-bottom: 100px;
 }
 
@@ -222,3 +220,18 @@
 }
 
 /* //SERVICES-SECTION */
+
+/* PORTFOLIO-SECTION */
+.portfolio {
+    background: linear-gradient(-225deg, rgba(114, 28, 161, 0.3) 0%, rgba(0, 0, 0, 0.30) 100%);
+    padding-bottom: 100px;
+}
+
+.portfolio-cards {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* //PORTFOLIO-SECTION */
