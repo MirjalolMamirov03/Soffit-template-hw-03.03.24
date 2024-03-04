@@ -176,7 +176,7 @@
 
 .services {
     padding-bottom: 100px;
-    width: 100%;    
+    width: 100%;
 }
 
 .services-title {
@@ -235,3 +235,84 @@
 }
 
 /* //PORTFOLIO-SECTION */
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.30) 35%, rgba(114, 28, 161, 0.3) 100%);
+}
+
+.footer-flex {
+    display: flex;
+    column-gap: 100px;
+    align-items: flex-start;
+}
+
+.footer-menu-box {
+    display: flex;
+    column-gap: 70px;
+    align-items: flex-start;
+    order: 1;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.menu-item {
+    max-width: 171px;
+    width: 100%;
+}
+
+.menu-link {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.active-link {
+    opacity: 0.3;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.footer-title {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .3;
+}
+
+.form-area {
+    display: block;
+    width: 363px;
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 50px;
+    border: 1px solid var(--white);
+    background-color: transparent;
+}
+
+.form-desc {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 47px;
+}
+
+/* //FOOTER */
