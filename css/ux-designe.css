@@ -165,4 +165,12 @@ body {
     opacity: .6;
 }
 
+.form-textarea {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 /* //MAIN-STYLE */
